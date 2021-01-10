@@ -1,0 +1,264 @@
+INFO 2021-01-07 22:24:59,629 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-07 22:25:22,921 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-01-07 22:25:28,470 log 224 Not Found: /
+WARNING 2021-01-07 22:25:28,471 basehttp 157 "GET / HTTP/1.1" 404 2445
+WARNING 2021-01-07 22:25:28,560 log 224 Not Found: /favicon.ico
+WARNING 2021-01-07 22:25:28,562 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2496
+INFO 2021-01-07 22:25:31,581 basehttp 157 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-01-07 22:25:31,602 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-01-07 22:25:31,602 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-01-07 22:25:31,604 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-01-07 22:25:31,605 basehttp 157 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-01-07 22:25:31,607 basehttp 157 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-01-07 22:25:31,609 basehttp 157 "GET /static/js/register.js HTTP/1.1" 304 0
+ERROR 2021-01-07 22:25:33,805 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\python3\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\python3\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\users\views.py", line 39, in get
+    redis_conn.setex('img:%s' % uuid, 300, text)
+  File "D:\python3\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\python3\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\python3\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\python3\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-01-07 22:25:33,809 basehttp 157 "GET /imagecode/?uuid=9e5c771a-5593-4615-92a5-6e328f2139c6 HTTP/1.1" 500 110228
+INFO 2021-01-07 22:25:48,319 basehttp 157 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-01-07 22:25:48,381 basehttp 157 "GET /imagecode/?uuid=ae406f84-9a98-49e4-b60f-da7ecd40287f HTTP/1.1" 200 3026
+INFO 2021-01-07 22:26:00,537 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=qweqweq&uuid=ae406f84-9a98-49e4-b60f-da7ecd40287f HTTP/1.1" 200 72
+INFO 2021-01-07 22:26:00,557 basehttp 157 "GET /imagecode/?uuid=bba0fdbc-0d9b-46c6-ba74-a16bd705aa1c HTTP/1.1" 200 3411
+INFO 2021-01-07 22:26:30,250 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=qweqweq&uuid=bba0fdbc-0d9b-46c6-ba74-a16bd705aa1c HTTP/1.1" 200 72
+INFO 2021-01-07 22:26:30,276 basehttp 157 "GET /imagecode/?uuid=72d34b65-4a50-495b-b8c7-e4d31ec6972e HTTP/1.1" 200 3179
+INFO 2021-01-07 22:27:10,771 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-07 22:27:11,904 basehttp 157 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-01-07 22:27:11,982 basehttp 157 "GET /imagecode/?uuid=74b4aa88-4926-45df-a4dc-b0f99a55bd8f HTTP/1.1" 200 3038
+INFO 2021-01-07 22:27:30,853 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=13131313131&uuid=74b4aa88-4926-45df-a4dc-b0f99a55bd8f HTTP/1.1" 200 72
+INFO 2021-01-07 22:27:30,887 basehttp 157 "GET /imagecode/?uuid=28b6a65f-36d7-432a-b80e-48ad421f65dc HTTP/1.1" 200 2904
+INFO 2021-01-07 22:28:00,485 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=13131313131&uuid=28b6a65f-36d7-432a-b80e-48ad421f65dc HTTP/1.1" 200 72
+INFO 2021-01-07 22:28:00,513 basehttp 157 "GET /imagecode/?uuid=532735a2-f527-45df-907a-9f96fe1ec541 HTTP/1.1" 200 3456
+INFO 2021-01-07 22:28:03,617 basehttp 157 "GET /imagecode/?uuid=66f3dc23-4587-4a0e-a3cb-468f18e9f8d5 HTTP/1.1" 200 3124
+INFO 2021-01-07 22:28:13,997 views 62 654437
+INFO 2021-01-07 22:28:16,866 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=ec7q&uuid=66f3dc23-4587-4a0e-a3cb-468f18e9f8d5 HTTP/1.1" 200 63
+INFO 2021-01-08 23:24:35,122 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-08 23:25:20,567 basehttp 157 "GET /register HTTP/1.1" 301 0
+INFO 2021-01-08 23:25:20,589 basehttp 157 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-01-08 23:25:22,143 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-01-08 23:25:22,147 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2021-01-08 23:25:22,193 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2021-01-08 23:25:22,231 basehttp 157 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-01-08 23:25:22,236 basehttp 157 "GET /static/js/register.js HTTP/1.1" 200 6575
+INFO 2021-01-08 23:25:22,242 basehttp 157 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2021-01-08 23:25:22,341 basehttp 157 "GET /imagecode/?uuid=4ffd43be-9317-4d13-a213-274b56c17670 HTTP/1.1" 200 3597
+WARNING 2021-01-08 23:25:22,356 log 224 Not Found: /favicon.ico
+WARNING 2021-01-08 23:25:22,357 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2496
+INFO 2021-01-08 23:26:02,800 basehttp 157 "GET /imagecode/?uuid=8940d73c-3dea-44e8-bb56-02af61dae2e5 HTTP/1.1" 200 3231
+INFO 2021-01-08 23:26:03,501 basehttp 157 "GET /imagecode/?uuid=d1badc7c-1559-4d18-b657-2df69655cb11 HTTP/1.1" 200 3432
+INFO 2021-01-08 23:26:09,327 views 89 909958
+INFO 2021-01-08 23:26:10,174 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=wazy&uuid=d1badc7c-1559-4d18-b657-2df69655cb11 HTTP/1.1" 200 63
+INFO 2021-01-08 23:26:13,733 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=wazy&uuid=d1badc7c-1559-4d18-b657-2df69655cb11 HTTP/1.1" 200 72
+WARNING 2021-01-08 23:26:34,393 log 224 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-01-08 23:26:34,394 basehttp 157 "POST /register/ HTTP/1.1" 403 2864
+INFO 2021-01-08 23:28:21,024 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-01-08 23:28:27,292 log 224 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-01-08 23:28:27,293 basehttp 157 "POST /register/ HTTP/1.1" 403 2864
+INFO 2021-01-08 23:28:36,130 basehttp 157 "GET /imagecode/?uuid=c31f463d-d581-4a68-8844-98ea0e063343 HTTP/1.1" 200 3107
+INFO 2021-01-08 23:28:53,248 views 89 563813
+INFO 2021-01-08 23:28:53,772 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=tdhs&uuid=c31f463d-d581-4a68-8844-98ea0e063343 HTTP/1.1" 200 63
+WARNING 2021-01-08 23:29:05,138 log 224 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-01-08 23:29:05,138 basehttp 157 "POST /register/ HTTP/1.1" 403 2864
+INFO 2021-01-08 23:29:41,144 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-08 23:29:52,251 basehttp 157 "GET /imagecode/?uuid=4a363569-cefb-41d2-9211-9d11c01bfeaf HTTP/1.1" 200 3159
+INFO 2021-01-08 23:29:53,190 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-08 23:29:53,239 basehttp 157 "GET /imagecode/?uuid=512d637b-ba09-4ae3-93e1-e1e872d3f3db HTTP/1.1" 200 3502
+INFO 2021-01-08 23:30:33,651 basehttp 157 "GET /imagecode/?uuid=f785bdbf-a012-4a1e-afd4-d1b52b15fa11 HTTP/1.1" 200 2862
+INFO 2021-01-08 23:30:42,746 views 89 094817
+INFO 2021-01-08 23:30:43,197 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=5roj&uuid=f785bdbf-a012-4a1e-afd4-d1b52b15fa11 HTTP/1.1" 200 63
+WARNING 2021-01-08 23:30:56,849 base 101 Method Not Allowed (POST): /register/
+WARNING 2021-01-08 23:30:56,849 log 224 Method Not Allowed: /register/
+WARNING 2021-01-08 23:30:56,849 basehttp 157 "POST /register/ HTTP/1.1" 405 0
+INFO 2021-01-08 23:31:40,546 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-08 23:31:45,626 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-08 23:31:45,748 basehttp 157 "GET /imagecode/?uuid=bb322a1a-6f9b-4fbd-a009-b9128b70fbb6 HTTP/1.1" 200 3368
+INFO 2021-01-08 23:33:25,168 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-08 23:33:41,373 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-08 23:33:41,497 basehttp 157 "GET /imagecode/?uuid=0a8d2d26-66c4-446d-81a1-6fc88e5e7402 HTTP/1.1" 200 3443
+INFO 2021-01-08 23:33:50,053 basehttp 157 "GET /imagecode/?uuid=82c3aab9-b923-43ef-a92f-c4dc05e4787f HTTP/1.1" 200 2974
+INFO 2021-01-08 23:33:56,873 views 89 134233
+INFO 2021-01-08 23:33:57,385 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=upd5&uuid=82c3aab9-b923-43ef-a92f-c4dc05e4787f HTTP/1.1" 200 63
+WARNING 2021-01-08 23:34:29,603 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-08 23:34:30,074 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-08 23:41:15,393 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-08 23:41:34,466 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-08 23:41:34,568 basehttp 157 "GET /imagecode/?uuid=f64f7348-84c1-4fd0-885d-e9c0c46d38cb HTTP/1.1" 200 3077
+INFO 2021-01-08 23:41:38,150 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-08 23:41:38,226 basehttp 157 "GET /imagecode/?uuid=d29e86d8-2fed-4190-9452-d810c50f466d HTTP/1.1" 200 2963
+INFO 2021-01-08 23:41:51,465 basehttp 157 "GET /imagecode/?uuid=b7f5c830-81c0-48ef-b3df-b8ba0cbbcbc8 HTTP/1.1" 200 3085
+INFO 2021-01-08 23:41:57,798 views 89 849671
+INFO 2021-01-08 23:41:58,253 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=rjvk&uuid=b7f5c830-81c0-48ef-b3df-b8ba0cbbcbc8 HTTP/1.1" 200 63
+WARNING 2021-01-08 23:42:07,518 base 101 Method Not Allowed (POST): /register/
+WARNING 2021-01-08 23:42:07,519 log 224 Method Not Allowed: /register/
+WARNING 2021-01-08 23:42:07,519 basehttp 157 "POST /register/ HTTP/1.1" 405 0
+INFO 2021-01-10 21:40:28,704 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-01-10 21:40:32,496 log 224 Not Found: /
+WARNING 2021-01-10 21:40:32,497 basehttp 157 "GET / HTTP/1.1" 404 2445
+WARNING 2021-01-10 21:40:32,659 log 224 Not Found: /favicon.ico
+WARNING 2021-01-10 21:40:32,660 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2496
+INFO 2021-01-10 21:40:42,075 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-10 21:40:42,108 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-01-10 21:40:42,110 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-01-10 21:40:42,111 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-01-10 21:40:42,115 basehttp 157 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-01-10 21:40:42,115 basehttp 157 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-01-10 21:40:42,117 basehttp 157 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-01-10 21:40:42,264 basehttp 157 "GET /imagecode/?uuid=4d19aa6b-8fbd-4a09-ba67-baae33668d00 HTTP/1.1" 200 3522
+INFO 2021-01-10 21:40:56,494 basehttp 157 "GET /imagecode/?uuid=8ea20bda-4dac-43f9-a645-acfb14be922f HTTP/1.1" 200 3574
+INFO 2021-01-10 21:41:08,224 views 89 004910
+INFO 2021-01-10 21:41:08,948 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=hnfd&uuid=8ea20bda-4dac-43f9-a645-acfb14be922f HTTP/1.1" 200 63
+INFO 2021-01-10 21:50:27,948 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-10 21:50:42,807 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-10 21:50:42,867 basehttp 157 "GET /imagecode/?uuid=7b97291c-d5ef-44b0-aa6b-00a8aff4ee62 HTTP/1.1" 200 3698
+INFO 2021-01-10 21:51:14,215 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=hwm&uuid=7b97291c-d5ef-44b0-aa6b-00a8aff4ee62 HTTP/1.1" 200 72
+INFO 2021-01-10 21:51:14,230 basehttp 157 "GET /imagecode/?uuid=113835cc-b0ad-43e3-88d8-1df121901d26 HTTP/1.1" 200 2897
+INFO 2021-01-10 21:51:23,798 views 89 099210
+INFO 2021-01-10 21:51:24,352 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=vlwb&uuid=113835cc-b0ad-43e3-88d8-1df121901d26 HTTP/1.1" 200 63
+WARNING 2021-01-10 21:51:34,894 base 101 Method Not Allowed (POST): /register/
+WARNING 2021-01-10 21:51:34,895 log 224 Method Not Allowed: /register/
+WARNING 2021-01-10 21:51:34,896 basehttp 157 "POST /register/ HTTP/1.1" 405 0
+WARNING 2021-01-10 21:53:05,399 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 21:53:05,439 basehttp 157 "GET /imagecode/?uuid=f62097c4-9655-478e-aed8-cb6480fe97ce HTTP/1.1" 200 3055
+INFO 2021-01-10 21:53:05,783 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 21:53:12,833 basehttp 157 "GET /imagecode/?uuid=8b47ffe1-f0a7-4076-b093-12e2970e868e HTTP/1.1" 200 3026
+INFO 2021-01-10 21:53:23,010 basehttp 157 "GET /imagecode/?uuid=ebaa343a-0ab6-4cc5-bbc6-b69361ba5cb7 HTTP/1.1" 200 3437
+INFO 2021-01-10 21:54:07,595 basehttp 157 "GET /register HTTP/1.1" 301 0
+INFO 2021-01-10 21:54:07,600 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-10 21:54:07,752 basehttp 157 "GET /imagecode/?uuid=4ee081dc-a873-4097-aaac-666441ff770c HTTP/1.1" 200 3372
+INFO 2021-01-10 21:54:38,323 views 89 470767
+INFO 2021-01-10 21:54:39,027 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=umwz&uuid=4ee081dc-a873-4097-aaac-666441ff770c HTTP/1.1" 200 63
+WARNING 2021-01-10 21:54:47,284 base 101 Method Not Allowed (POST): /register/
+WARNING 2021-01-10 21:54:47,285 log 224 Method Not Allowed: /register/
+WARNING 2021-01-10 21:54:47,286 basehttp 157 "POST /register/ HTTP/1.1" 405 0
+INFO 2021-01-10 21:58:15,358 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-01-10 21:58:22,011 log 224 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-01-10 21:58:22,012 basehttp 157 "POST /register/ HTTP/1.1" 403 2864
+INFO 2021-01-10 21:58:23,932 basehttp 157 "GET /imagecode/?uuid=82b6cca8-0dd0-4ec5-8df0-c6898a862008 HTTP/1.1" 200 2910
+INFO 2021-01-10 21:58:33,180 basehttp 157 "GET /imagecode/?uuid=ec50f81c-3f1f-46be-ad51-a8a04e6b1f7f HTTP/1.1" 200 3073
+INFO 2021-01-10 21:58:33,996 basehttp 157 "GET /imagecode/?uuid=2d067a5e-f146-4372-889b-98b72f2bb60b HTTP/1.1" 200 3317
+INFO 2021-01-10 21:58:43,568 basehttp 157 "GET /imagecode/?uuid=4cd25698-281a-4397-9c88-e5062163377f HTTP/1.1" 200 3074
+INFO 2021-01-10 21:58:44,339 basehttp 157 "GET /imagecode/?uuid=953a964f-543a-45a4-819b-b0d9878e047c HTTP/1.1" 200 3083
+INFO 2021-01-10 21:59:15,975 views 89 374108
+INFO 2021-01-10 21:59:16,424 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=9elt&uuid=953a964f-543a-45a4-819b-b0d9878e047c HTTP/1.1" 200 63
+WARNING 2021-01-10 21:59:27,652 log 224 Bad Request: /register/
+WARNING 2021-01-10 21:59:27,653 basehttp 157 "POST /register/ HTTP/1.1" 400 21
+INFO 2021-01-10 21:59:47,855 basehttp 157 "GET /imagecode/?uuid=e2523e69-c24e-4431-b8b0-5397f29f5d3a HTTP/1.1" 200 3102
+INFO 2021-01-10 22:00:31,091 basehttp 157 "GET /imagecode/?uuid=0b2f5a3b-7423-4b2a-b7cb-a589e2cd8fc3 HTTP/1.1" 200 3155
+INFO 2021-01-10 22:00:32,154 basehttp 157 "GET /imagecode/?uuid=6f1eeb93-0f2f-4833-ae4e-e946518c93de HTTP/1.1" 200 3169
+INFO 2021-01-10 22:00:59,295 views 89 806328
+INFO 2021-01-10 22:00:59,958 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=SORF&uuid=6f1eeb93-0f2f-4833-ae4e-e946518c93de HTTP/1.1" 200 63
+WARNING 2021-01-10 22:01:10,667 log 224 Bad Request: /register/
+WARNING 2021-01-10 22:01:10,668 basehttp 157 "POST /register/ HTTP/1.1" 400 21
+INFO 2021-01-10 22:02:35,531 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-10 22:02:35,601 basehttp 157 "GET /imagecode/?uuid=4adcf54f-fe28-4c8e-903c-9e61d20d7f39 HTTP/1.1" 200 3236
+INFO 2021-01-10 22:03:01,150 views 89 182148
+INFO 2021-01-10 22:03:01,737 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=XCXR&uuid=4adcf54f-fe28-4c8e-903c-9e61d20d7f39 HTTP/1.1" 200 63
+WARNING 2021-01-10 22:03:10,602 log 224 Bad Request: /register/
+WARNING 2021-01-10 22:03:10,603 basehttp 157 "POST /register/ HTTP/1.1" 400 21
+INFO 2021-01-10 22:03:27,567 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-10 22:03:36,147 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-10 22:03:36,249 basehttp 157 "GET /imagecode/?uuid=c25e9c14-6846-4126-bd16-d7b516f9c378 HTTP/1.1" 200 3075
+INFO 2021-01-10 22:03:48,649 basehttp 157 "GET /imagecode/?uuid=910a1d82-9c88-44f0-9670-07c19d081671 HTTP/1.1" 200 3421
+INFO 2021-01-10 22:04:03,750 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=6CSR&uuid=910a1d82-9c88-44f0-9670-07c19d081671 HTTP/1.1" 200 72
+INFO 2021-01-10 22:04:03,778 basehttp 157 "GET /imagecode/?uuid=1361d0c7-3922-4d73-88a8-2917fe696c0b HTTP/1.1" 200 3133
+INFO 2021-01-10 22:04:11,831 basehttp 157 "GET /imagecode/?uuid=c194451e-dde6-4bb3-9a4b-5c1995bd36c6 HTTP/1.1" 200 3602
+INFO 2021-01-10 22:04:24,243 views 89 605226
+INFO 2021-01-10 22:04:24,907 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=WBAO&uuid=c194451e-dde6-4bb3-9a4b-5c1995bd36c6 HTTP/1.1" 200 63
+WARNING 2021-01-10 22:05:08,546 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:05:08,979 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:05:15,264 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:05:15,329 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:05:15,377 basehttp 157 "GET /imagecode/?uuid=658f906b-b8ea-4acc-955f-1b9ee5729268 HTTP/1.1" 200 3115
+INFO 2021-01-10 22:05:15,379 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:05:16,777 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:05:16,832 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:05:16,843 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:05:16,878 basehttp 157 "GET /imagecode/?uuid=0bd21763-c757-483f-a74e-35458afb5b63 HTTP/1.1" 200 3406
+INFO 2021-01-10 22:05:17,249 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:05:17,288 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:05:17,303 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:05:17,355 basehttp 157 "GET /imagecode/?uuid=609020f3-e104-4599-9b92-6ba6fbe33c14 HTTP/1.1" 200 2950
+INFO 2021-01-10 22:05:17,422 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:05:17,467 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:05:17,482 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:05:17,514 basehttp 157 "GET /imagecode/?uuid=ef9e6722-61d0-40bc-ab42-4fd1064abcaa HTTP/1.1" 200 3250
+INFO 2021-01-10 22:05:17,616 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:05:17,659 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:05:17,668 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:05:17,729 basehttp 157 "GET /imagecode/?uuid=a4fccef7-d8d4-46ac-ab6a-3a542a4bed81 HTTP/1.1" 200 2764
+INFO 2021-01-10 22:05:28,119 basehttp 157 "GET /imagecode/?uuid=6f645492-2509-4f31-b027-01906611cae1 HTTP/1.1" 200 3319
+INFO 2021-01-10 22:05:36,623 views 89 017278
+INFO 2021-01-10 22:05:37,742 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=DW5T&uuid=6f645492-2509-4f31-b027-01906611cae1 HTTP/1.1" 200 63
+INFO 2021-01-10 22:06:37,649 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-10 22:06:51,358 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=DW5T&uuid=6f645492-2509-4f31-b027-01906611cae1 HTTP/1.1" 200 72
+INFO 2021-01-10 22:06:51,403 basehttp 157 "GET /imagecode/?uuid=80ab7b7e-ba41-4404-8f19-667a91880a3d HTTP/1.1" 200 3360
+INFO 2021-01-10 22:06:56,319 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=DW5T&uuid=80ab7b7e-ba41-4404-8f19-667a91880a3d HTTP/1.1" 200 72
+INFO 2021-01-10 22:06:56,349 basehttp 157 "GET /imagecode/?uuid=cab38543-db97-401c-880e-81145aaff5a4 HTTP/1.1" 200 3250
+INFO 2021-01-10 22:07:00,166 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:07:00,227 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:07:00,277 basehttp 157 "GET /imagecode/?uuid=905d901c-cfe0-4deb-984c-ab5e5f315a59 HTTP/1.1" 200 3096
+INFO 2021-01-10 22:07:00,822 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:07:20,404 views 89 845174
+INFO 2021-01-10 22:07:21,291 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=PKGF&uuid=905d901c-cfe0-4deb-984c-ab5e5f315a59 HTTP/1.1" 200 63
+INFO 2021-01-10 22:10:32,324 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-10 22:10:33,122 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:10:33,228 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:10:33,306 basehttp 157 "GET /imagecode/?uuid=912ed03b-4911-446e-adbb-a19149ce4d63 HTTP/1.1" 200 3281
+INFO 2021-01-10 22:10:33,929 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:10:44,143 basehttp 157 "GET /imagecode/?uuid=33ed630e-4462-4fa7-a011-62fce452efec HTTP/1.1" 200 3212
+INFO 2021-01-10 22:10:49,968 views 89 754355
+INFO 2021-01-10 22:10:50,011 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=GSTM&uuid=33ed630e-4462-4fa7-a011-62fce452efec HTTP/1.1" 200 63
+INFO 2021-01-10 22:14:54,996 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:14:55,057 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:14:55,081 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:14:55,132 basehttp 157 "GET /imagecode/?uuid=60787db2-5790-4741-a2b0-3d9400ea38c8 HTTP/1.1" 200 3127
+INFO 2021-01-10 22:15:01,414 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:15:01,475 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:15:01,510 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:15:01,548 basehttp 157 "GET /imagecode/?uuid=5aa9350e-b25a-42e5-9f8c-efe509d0d105 HTTP/1.1" 200 3278
+INFO 2021-01-10 22:15:30,722 views 89 009083
+INFO 2021-01-10 22:15:30,752 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=wxby&uuid=5aa9350e-b25a-42e5-9f8c-efe509d0d105 HTTP/1.1" 200 63
+INFO 2021-01-10 22:18:29,015 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-10 22:18:29,599 basehttp 157 "POST /register/ HTTP/1.1" 200 33
+ERROR 2021-01-10 22:18:35,914 views 46 (1062, "Duplicate entry '18895675881' for key 'tb_users.username'")
+WARNING 2021-01-10 22:18:35,915 log 224 Bad Request: /register/
+WARNING 2021-01-10 22:18:35,915 basehttp 157 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-01-10 22:18:46,608 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:18:46,666 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:18:46,745 basehttp 157 "GET /imagecode/?uuid=194fbb27-4e5e-4fe8-be41-926db7310bfe HTTP/1.1" 200 3846
+INFO 2021-01-10 22:18:47,136 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:18:48,068 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:18:48,114 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:18:48,135 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:18:48,179 basehttp 157 "GET /imagecode/?uuid=6c98fdf5-061e-49b8-86a2-96c18d8c03ab HTTP/1.1" 200 3019
+INFO 2021-01-10 22:19:05,234 views 89 955352
+INFO 2021-01-10 22:19:05,271 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=c8wp&uuid=6c98fdf5-061e-49b8-86a2-96c18d8c03ab HTTP/1.1" 200 63
+INFO 2021-01-10 22:19:15,664 basehttp 157 "POST /register/ HTTP/1.1" 200 33
