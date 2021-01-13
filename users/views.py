@@ -1,5 +1,8 @@
+from django.contrib.auth import login
 from django.http import HttpResponseBadRequest, JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.urls import reverse
+
 from libs.captcha.captcha import captcha
 from django_redis import get_redis_connection
 from django.http import HttpResponse
@@ -45,7 +48,11 @@ class RegisterView(View):
         except DatabaseError as e:
             logger.error(e)
             return HttpResponseBadRequest("注册失败")
-        return HttpResponse("注册成功，重定向到首页")
+        login(request, user)
+        response = redirect(reverse('home:index'))
+        response.set_cookie('is_login', True)
+        response.set_cookie('username', user.username, max_age=7 * 24 * 3600)
+        return response
 
 
 class ImageCodeView(View):
@@ -90,3 +97,8 @@ class SmsCodeView(View):
         redis_conn.setex('sms:%s' % mobile, 300, sms_code)
         CCP().send_template_sms(mobile, [sms_code, 5], 1)
         return JsonResponse({"code": RETCODE.OK, 'errmsg': '短信发送成功'})
+
+
+class LoginView(View):
+    def get(self, request):
+        return render(request, 'login.html')

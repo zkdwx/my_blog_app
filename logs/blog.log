@@ -262,3 +262,652 @@ INFO 2021-01-10 22:18:48,179 basehttp 157 "GET /imagecode/?uuid=6c98fdf5-061e-49
 INFO 2021-01-10 22:19:05,234 views 89 955352
 INFO 2021-01-10 22:19:05,271 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=c8wp&uuid=6c98fdf5-061e-49b8-86a2-96c18d8c03ab HTTP/1.1" 200 63
 INFO 2021-01-10 22:19:15,664 basehttp 157 "POST /register/ HTTP/1.1" 200 33
+INFO 2021-01-10 22:40:12,526 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-01-10 22:40:22,378 log 224 Bad Request: /register/
+WARNING 2021-01-10 22:40:22,379 basehttp 157 "POST /register/ HTTP/1.1" 400 24
+WARNING 2021-01-10 22:40:23,765 log 224 Bad Request: /register/
+WARNING 2021-01-10 22:40:23,766 basehttp 157 "POST /register/ HTTP/1.1" 400 24
+INFO 2021-01-10 22:40:24,815 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:40:24,892 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:40:24,952 basehttp 157 "GET /imagecode/?uuid=2fdf4fca-3470-4fde-97cc-2e8f0e0acc65 HTTP/1.1" 200 3116
+INFO 2021-01-10 22:40:25,312 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:40:25,886 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:40:25,926 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:40:25,944 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:40:25,979 basehttp 157 "GET /imagecode/?uuid=5e76f5b2-ed59-4b87-abfd-c43acade5edd HTTP/1.1" 200 3291
+INFO 2021-01-10 22:40:38,339 views 89 585790
+INFO 2021-01-10 22:40:39,510 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=fkbr&uuid=5e76f5b2-ed59-4b87-abfd-c43acade5edd HTTP/1.1" 200 63
+ERROR 2021-01-10 22:40:44,977 views 46 (1062, "Duplicate entry '18895675881' for key 'tb_users.username'")
+WARNING 2021-01-10 22:40:44,977 log 224 Bad Request: /register/
+WARNING 2021-01-10 22:40:44,978 basehttp 157 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-01-10 22:41:02,961 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:41:02,985 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:41:03,031 basehttp 157 "GET /imagecode/?uuid=c8bc2c93-ea3d-4c2d-800e-c020a008001a HTTP/1.1" 200 3020
+INFO 2021-01-10 22:41:03,945 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:41:03,996 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:41:04,014 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:41:04,034 basehttp 157 "GET /imagecode/?uuid=7e200399-bf01-4bdc-ba81-283a7832cc16 HTTP/1.1" 200 3105
+INFO 2021-01-10 22:41:04,137 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:41:04,178 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:41:04,197 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:41:04,240 basehttp 157 "GET /imagecode/?uuid=79b52a56-c26c-426f-87c1-da1b7206661a HTTP/1.1" 200 3213
+INFO 2021-01-10 22:41:04,302 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:41:04,347 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:41:04,367 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:41:04,392 basehttp 157 "GET /imagecode/?uuid=a833aa5f-e83a-4805-b991-079ff0ee96f8 HTTP/1.1" 200 3771
+INFO 2021-01-10 22:41:04,439 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:41:04,478 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:41:04,495 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:41:04,533 basehttp 157 "GET /imagecode/?uuid=ccea23c1-9abc-42a2-b787-e3a07b18c3c3 HTTP/1.1" 200 3279
+INFO 2021-01-10 22:41:17,882 views 89 738012
+INFO 2021-01-10 22:41:18,487 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=dp8n&uuid=ccea23c1-9abc-42a2-b787-e3a07b18c3c3 HTTP/1.1" 200 63
+ERROR 2021-01-10 22:41:24,596 views 46 (1062, "Duplicate entry '18895675881' for key 'tb_users.username'")
+WARNING 2021-01-10 22:41:24,596 log 224 Bad Request: /register/
+WARNING 2021-01-10 22:41:24,597 basehttp 157 "POST /register/ HTTP/1.1" 400 12
+WARNING 2021-01-10 22:41:59,926 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:41:59,945 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:41:59,972 basehttp 157 "GET /imagecode/?uuid=83c4b602-24d6-46bf-9f4b-b57d464f8c78 HTTP/1.1" 200 3317
+INFO 2021-01-10 22:42:00,896 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+WARNING 2021-01-10 22:42:00,943 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-10 22:42:00,966 basehttp 157 "GET /imagecode/?uuid=01cb9035-64d5-4244-8619-fefc4ca5f128 HTTP/1.1" 200 3270
+INFO 2021-01-10 22:42:00,984 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-10 22:42:18,899 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=7ra4&uuid=01cb9035-64d5-4244-8619-fefc4ca5f128 HTTP/1.1" 200 72
+INFO 2021-01-10 22:42:18,924 basehttp 157 "GET /imagecode/?uuid=8592ac6a-275d-419a-91b5-42878075e8c8 HTTP/1.1" 200 2809
+INFO 2021-01-10 22:42:27,727 basehttp 157 "GET /imagecode/?uuid=4dc9be29-de93-4d2b-91eb-64b2b7104e80 HTTP/1.1" 200 3202
+INFO 2021-01-10 22:42:29,341 basehttp 157 "GET /imagecode/?uuid=be460a5c-089d-40e7-80b5-7fb133789299 HTTP/1.1" 200 3189
+INFO 2021-01-10 22:42:34,703 views 89 586396
+INFO 2021-01-10 22:42:35,536 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=qado&uuid=be460a5c-089d-40e7-80b5-7fb133789299 HTTP/1.1" 200 63
+INFO 2021-01-10 22:44:32,745 autoreload 240 D:\py_workspace\my_blog_app\my_blog_app\urls.py changed, reloading.
+INFO 2021-01-10 22:44:33,228 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-10 22:44:40,590 basehttp 157 "GET /register/ HTTP/1.1" 200 6018
+INFO 2021-01-10 22:44:40,662 basehttp 157 "GET /imagecode/?uuid=792227aa-7acf-4717-b237-15bb3671c1bb HTTP/1.1" 200 3552
+INFO 2021-01-10 22:44:47,567 basehttp 157 "GET /imagecode/?uuid=9501cff9-aae4-4ef4-98af-e879cd81781a HTTP/1.1" 200 3371
+INFO 2021-01-10 22:44:54,391 views 89 678447
+INFO 2021-01-10 22:44:54,921 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=s95e&uuid=9501cff9-aae4-4ef4-98af-e879cd81781a HTTP/1.1" 200 63
+INFO 2021-01-10 22:45:00,041 basehttp 157 "POST /register/ HTTP/1.1" 200 33
+ERROR 2021-01-10 22:45:14,248 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:45:14,249 basehttp 157 "GET / HTTP/1.1" 500 86312
+ERROR 2021-01-10 22:46:00,240 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:46:00,241 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:41,419 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:41,420 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:42,057 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:42,059 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:42,218 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:42,218 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:42,411 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:42,412 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:42,565 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:42,566 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:42,727 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:42,727 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:42,887 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:42,888 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:43,054 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:43,054 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:43,210 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:43,211 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:43,368 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:43,369 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:43,525 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:43,527 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:43,699 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:43,700 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:43,852 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:43,852 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:44,013 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:44,014 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:44,182 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:44,183 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:44,341 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:44,342 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:44,506 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:44,507 basehttp 157 "GET / HTTP/1.1" 500 86449
+ERROR 2021-01-10 22:47:44,667 log 224 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\home\views.py", line 7, in get
+    return render(request, 'index.html')
+  File "D:\python3\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\python3\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2021-01-10 22:47:44,668 basehttp 157 "GET / HTTP/1.1" 500 86449
+INFO 2021-01-10 22:49:01,508 basehttp 157 "GET / HTTP/1.1" 200 11962
+INFO 2021-01-10 22:49:02,474 basehttp 157 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 549
+INFO 2021-01-10 22:49:02,476 basehttp 157 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-01-10 22:49:02,478 basehttp 157 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-01-10 22:49:02,488 basehttp 157 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2021-01-10 22:49:02,498 basehttp 157 "GET /static/js/index.js HTTP/1.1" 200 552
+INFO 2021-01-10 22:49:02,501 basehttp 157 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-01-10 22:49:02,512 basehttp 157 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-01-10 22:49:30,873 basehttp 157 "GET / HTTP/1.1" 200 11962
+INFO 2021-01-10 22:49:35,718 basehttp 157 "GET /static/detail.html HTTP/1.1" 200 8829
+WARNING 2021-01-10 22:49:35,755 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+INFO 2021-01-10 22:49:35,757 basehttp 157 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2021-01-10 22:49:35,757 basehttp 157 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2021-01-10 22:49:35,758 basehttp 157 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2100
+INFO 2021-01-10 22:49:35,763 basehttp 157 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 691941
+INFO 2021-01-10 22:49:35,837 basehttp 157 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 348
+INFO 2021-01-10 22:49:35,848 basehttp 157 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19039
+INFO 2021-01-10 22:49:35,849 basehttp 157 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2021-01-10 22:49:35,859 basehttp 157 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-01-10 22:49:35,865 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3835
+INFO 2021-01-10 22:49:35,866 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2021-01-10 22:49:35,877 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2021-01-10 22:49:35,878 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2021-01-10 22:49:35,878 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-01-10 22:49:35,879 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-01-10 22:49:35,881 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 373
+INFO 2021-01-10 22:49:35,891 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+WARNING 2021-01-10 22:49:35,902 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+INFO 2021-01-10 22:49:35,913 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-01-10 22:49:35,913 basehttp 157 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+WARNING 2021-01-10 22:49:35,927 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 404 1815
+INFO 2021-01-10 22:49:35,928 basehttp 157 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2021-01-10 22:51:12,734 basehttp 157 "GET /static/detail.html HTTP/1.1" 304 0
+WARNING 2021-01-10 22:51:12,763 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+WARNING 2021-01-10 22:51:12,911 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+WARNING 2021-01-10 22:51:12,941 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 404 1815
+INFO 2021-01-11 22:12:54,535 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:13:40,745 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:14:00,450 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:14:00,500 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-01-11 22:14:00,509 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 304 0
+INFO 2021-01-11 22:14:00,512 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-01-11 22:14:00,517 basehttp 157 "GET /static/js/host.js HTTP/1.1" 304 0
+INFO 2021-01-11 22:14:00,520 basehttp 157 "GET /static/js/common.js HTTP/1.1" 304 0
+INFO 2021-01-11 22:14:01,004 basehttp 157 "GET /static/js/register.js HTTP/1.1" 200 6597
+INFO 2021-01-11 22:14:01,072 basehttp 157 "GET /imagecode/?uuid=151c21ab-81e4-42e3-a111-6c74cc89aeb3 HTTP/1.1" 200 2985
+WARNING 2021-01-11 22:14:01,091 log 224 Not Found: /favicon.ico
+WARNING 2021-01-11 22:14:01,092 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2657
+INFO 2021-01-11 22:14:17,402 views 91 889455
+INFO 2021-01-11 22:14:18,210 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=3kcv&uuid=151c21ab-81e4-42e3-a111-6c74cc89aeb3 HTTP/1.1" 200 63
+ERROR 2021-01-11 22:14:24,560 views 48 (1062, "Duplicate entry '18895675881' for key 'tb_users.username'")
+WARNING 2021-01-11 22:14:24,560 log 224 Bad Request: /register/
+WARNING 2021-01-11 22:14:24,560 basehttp 157 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-01-11 22:14:58,387 basehttp 157 "GET /imagecode/?uuid=4717b1e4-5cb2-406d-ab1c-ec790dc7bf7e HTTP/1.1" 200 3545
+INFO 2021-01-11 22:15:00,390 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:15:00,447 basehttp 157 "GET /imagecode/?uuid=16e3741f-b781-4c88-a725-809d9ceab1b8 HTTP/1.1" 200 3026
+INFO 2021-01-11 22:15:13,391 views 91 998677
+INFO 2021-01-11 22:15:13,790 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=dtm8&uuid=16e3741f-b781-4c88-a725-809d9ceab1b8 HTTP/1.1" 200 63
+INFO 2021-01-11 22:15:35,678 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:15:35,851 basehttp 157 "GET /imagecode/?uuid=b246f19c-776e-4135-9a8b-fb784e4239e5 HTTP/1.1" 200 3240
+INFO 2021-01-11 22:15:41,937 basehttp 157 "GET /imagecode/?uuid=7910e0ea-3f5b-41ff-b84a-18532bfcaa36 HTTP/1.1" 200 3573
+INFO 2021-01-11 22:15:46,970 views 91 858455
+INFO 2021-01-11 22:15:47,402 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=kw35&uuid=7910e0ea-3f5b-41ff-b84a-18532bfcaa36 HTTP/1.1" 200 63
+INFO 2021-01-11 22:16:10,240 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:16:12,105 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:16:12,205 basehttp 157 "GET /imagecode/?uuid=dafca3f8-5122-4e81-babb-9b7a10fb352c HTTP/1.1" 200 3075
+INFO 2021-01-11 22:16:12,881 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:16:12,969 basehttp 157 "GET /imagecode/?uuid=6e748555-081a-46f0-8b10-cb303c5d9abb HTTP/1.1" 200 3403
+INFO 2021-01-11 22:16:21,746 views 91 207632
+INFO 2021-01-11 22:16:22,196 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=hvfo&uuid=6e748555-081a-46f0-8b10-cb303c5d9abb HTTP/1.1" 200 63
+INFO 2021-01-11 22:17:55,685 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:18:01,698 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:18:07,108 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:18:07,199 basehttp 157 "GET /imagecode/?uuid=0e34ead0-bf76-4235-af48-97dfdd6e7e07 HTTP/1.1" 200 3551
+INFO 2021-01-11 22:18:20,073 views 91 963475
+INFO 2021-01-11 22:18:50,177 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=h65q&uuid=0e34ead0-bf76-4235-af48-97dfdd6e7e07 HTTP/1.1" 200 63
+ERROR 2021-01-11 22:18:54,971 views 48 (1062, "Duplicate entry '18895675881' for key 'tb_users.username'")
+WARNING 2021-01-11 22:18:54,979 log 224 Bad Request: /register/
+WARNING 2021-01-11 22:18:54,980 basehttp 157 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-01-11 22:19:39,737 basehttp 157 "GET /imagecode/?uuid=d6e597e5-f427-428f-8c0f-aeebe6612dad HTTP/1.1" 200 3506
+INFO 2021-01-11 22:19:57,892 views 91 258265
+INFO 2021-01-11 22:20:00,992 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=iwdw&uuid=d6e597e5-f427-428f-8c0f-aeebe6612dad HTTP/1.1" 200 63
+INFO 2021-01-11 22:20:06,108 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=iwdw&uuid=d6e597e5-f427-428f-8c0f-aeebe6612dad HTTP/1.1" 200 72
+INFO 2021-01-11 22:20:06,650 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=iwdw&uuid=d6e597e5-f427-428f-8c0f-aeebe6612dad HTTP/1.1" 200 72
+INFO 2021-01-11 22:20:06,823 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=iwdw&uuid=d6e597e5-f427-428f-8c0f-aeebe6612dad HTTP/1.1" 200 72
+INFO 2021-01-11 22:20:06,994 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=iwdw&uuid=d6e597e5-f427-428f-8c0f-aeebe6612dad HTTP/1.1" 200 72
+INFO 2021-01-11 22:20:12,376 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:20:12,455 basehttp 157 "GET /imagecode/?uuid=63b30781-5350-48e1-a972-8f3225f9e8b5 HTTP/1.1" 200 3162
+INFO 2021-01-11 22:20:18,283 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:20:18,349 basehttp 157 "GET /imagecode/?uuid=cfae927b-4abf-4ee3-ab90-ccbe7c79c964 HTTP/1.1" 200 2957
+INFO 2021-01-11 22:20:29,300 views 91 597717
+INFO 2021-01-11 22:20:31,138 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=acat&uuid=cfae927b-4abf-4ee3-ab90-ccbe7c79c964 HTTP/1.1" 200 63
+INFO 2021-01-11 22:20:36,601 basehttp 157 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-01-11 22:20:36,608 basehttp 157 "GET / HTTP/1.1" 200 11962
+INFO 2021-01-11 22:20:37,940 basehttp 157 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-01-11 22:20:37,945 basehttp 157 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-01-11 22:20:38,059 basehttp 157 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 549
+INFO 2021-01-11 22:20:38,066 basehttp 157 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2021-01-11 22:20:38,076 basehttp 157 "GET /static/js/index.js HTTP/1.1" 200 552
+INFO 2021-01-11 22:20:38,081 basehttp 157 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-01-11 22:20:38,087 basehttp 157 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-01-11 22:23:07,316 basehttp 157 "GET /static/detail.html HTTP/1.1" 200 8829
+INFO 2021-01-11 22:23:07,350 basehttp 157 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2021-01-11 22:23:07,358 basehttp 157 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2100
+INFO 2021-01-11 22:23:07,362 basehttp 157 "GET /static/js/detail.js HTTP/1.1" 200 1294
+WARNING 2021-01-11 22:23:07,374 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+INFO 2021-01-11 22:23:07,380 basehttp 157 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 691941
+INFO 2021-01-11 22:23:07,462 basehttp 157 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 348
+INFO 2021-01-11 22:23:07,480 basehttp 157 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19039
+INFO 2021-01-11 22:23:07,481 basehttp 157 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2021-01-11 22:23:07,491 basehttp 157 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-01-11 22:23:07,501 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3835
+INFO 2021-01-11 22:23:07,502 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2021-01-11 22:23:07,514 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-01-11 22:23:07,515 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2021-01-11 22:23:07,518 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2021-01-11 22:23:07,522 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 373
+INFO 2021-01-11 22:23:07,522 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-01-11 22:23:07,536 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+WARNING 2021-01-11 22:23:07,554 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+INFO 2021-01-11 22:23:07,563 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-01-11 22:23:07,565 basehttp 157 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2021-01-11 22:23:07,584 basehttp 157 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+WARNING 2021-01-11 22:23:07,589 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 404 1815
+INFO 2021-01-11 22:23:11,884 basehttp 157 "GET /static/login.html HTTP/1.1" 200 3117
+INFO 2021-01-11 22:23:11,911 basehttp 157 "GET /static/js/login.js HTTP/1.1" 200 710
+WARNING 2021-01-11 22:23:14,091 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+WARNING 2021-01-11 22:23:14,118 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 404 1815
+INFO 2021-01-11 22:27:28,614 autoreload 240 D:\py_workspace\my_blog_app\users\views.py changed, reloading.
+INFO 2021-01-11 22:27:29,860 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:27:37,027 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:27:37,129 basehttp 157 "GET /imagecode/?uuid=621bcfc6-a291-4f01-afc4-99ab1500b36e HTTP/1.1" 200 3248
+INFO 2021-01-11 22:27:49,264 views 93 597237
+INFO 2021-01-11 22:27:52,085 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=vyqb&uuid=621bcfc6-a291-4f01-afc4-99ab1500b36e HTTP/1.1" 200 63
+INFO 2021-01-11 22:27:57,546 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=vyqb&uuid=621bcfc6-a291-4f01-afc4-99ab1500b36e HTTP/1.1" 200 72
+INFO 2021-01-11 22:27:58,177 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=vyqb&uuid=621bcfc6-a291-4f01-afc4-99ab1500b36e HTTP/1.1" 200 72
+INFO 2021-01-11 22:27:58,408 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=vyqb&uuid=621bcfc6-a291-4f01-afc4-99ab1500b36e HTTP/1.1" 200 72
+INFO 2021-01-11 22:28:03,059 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=vyqb&uuid=621bcfc6-a291-4f01-afc4-99ab1500b36e HTTP/1.1" 200 72
+INFO 2021-01-11 22:28:03,227 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=vyqb&uuid=621bcfc6-a291-4f01-afc4-99ab1500b36e HTTP/1.1" 200 72
+INFO 2021-01-11 22:28:03,383 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=vyqb&uuid=621bcfc6-a291-4f01-afc4-99ab1500b36e HTTP/1.1" 200 72
+INFO 2021-01-11 22:28:09,441 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:28:23,658 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:28:23,788 basehttp 157 "GET /imagecode/?uuid=fecd94cc-f43d-4a33-afc2-1f57d18e1732 HTTP/1.1" 200 3070
+INFO 2021-01-11 22:28:32,772 views 93 395911
+INFO 2021-01-11 22:28:33,464 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=sxvb&uuid=fecd94cc-f43d-4a33-afc2-1f57d18e1732 HTTP/1.1" 200 63
+ERROR 2021-01-11 22:28:41,237 views 49 (1062, "Duplicate entry '18895675881' for key 'tb_users.username'")
+WARNING 2021-01-11 22:28:41,237 log 224 Bad Request: /register/
+WARNING 2021-01-11 22:28:41,238 basehttp 157 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-01-11 22:28:45,461 basehttp 157 "GET /imagecode/?uuid=83663c3e-a0d0-4a67-a0ee-e42ff8a6be3b HTTP/1.1" 200 3127
+INFO 2021-01-11 22:28:49,907 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:28:49,975 basehttp 157 "GET /imagecode/?uuid=93a63ee2-b357-4f28-80d0-4a47a391c845 HTTP/1.1" 200 3018
+INFO 2021-01-11 22:29:00,882 views 93 831563
+INFO 2021-01-11 22:29:01,660 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=casn&uuid=93a63ee2-b357-4f28-80d0-4a47a391c845 HTTP/1.1" 200 63
+INFO 2021-01-11 22:29:07,279 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=casn&uuid=93a63ee2-b357-4f28-80d0-4a47a391c845 HTTP/1.1" 200 72
+INFO 2021-01-11 22:29:07,462 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=casn&uuid=93a63ee2-b357-4f28-80d0-4a47a391c845 HTTP/1.1" 200 72
+INFO 2021-01-11 22:29:19,159 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:29:24,428 basehttp 157 "GET /imagecode/?uuid=5960bfdc-0ef9-41e3-8f5e-14d8e9038825 HTTP/1.1" 200 3208
+INFO 2021-01-11 22:29:25,230 basehttp 157 "GET /imagecode/?uuid=280e79e2-6155-48fe-9830-5aeb83c808ac HTTP/1.1" 200 3378
+INFO 2021-01-11 22:29:25,997 basehttp 157 "GET /imagecode/?uuid=5e8ce061-73ff-46fd-bf96-f89fe25c05f8 HTTP/1.1" 200 3027
+INFO 2021-01-11 22:29:33,162 views 93 051051
+INFO 2021-01-11 22:29:33,625 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=f5th&uuid=5e8ce061-73ff-46fd-bf96-f89fe25c05f8 HTTP/1.1" 200 63
+INFO 2021-01-11 22:31:50,776 basehttp 157 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-01-11 22:31:50,788 basehttp 157 "GET / HTTP/1.1" 200 11962
+WARNING 2021-01-11 22:32:31,871 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+WARNING 2021-01-11 22:32:32,132 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 404 1815
+WARNING 2021-01-11 22:32:32,306 basehttp 157 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 404 1812
+INFO 2021-01-11 22:35:56,595 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:36:00,648 basehttp 157 "GET /register/ HTTP/1.1" 200 6008
+INFO 2021-01-11 22:36:00,741 basehttp 157 "GET /imagecode/?uuid=c46f8c53-2371-47cd-be44-f168b4ef649e HTTP/1.1" 200 3299
+INFO 2021-01-11 22:36:13,533 views 96 907922
+INFO 2021-01-11 22:36:14,124 basehttp 157 "GET /smscode/?mobile=13965020845&image_code=btup&uuid=c46f8c53-2371-47cd-be44-f168b4ef649e HTTP/1.1" 200 63
+INFO 2021-01-11 22:36:36,489 basehttp 157 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-01-11 22:36:36,495 basehttp 157 "GET / HTTP/1.1" 200 11962
+INFO 2021-01-11 22:42:07,664 autoreload 240 D:\py_workspace\my_blog_app\users\urls.py changed, reloading.
+INFO 2021-01-11 22:42:08,740 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:42:10,978 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:42:16,366 basehttp 157 "GET /login HTTP/1.1" 301 0
+INFO 2021-01-11 22:42:16,382 basehttp 157 "GET /login/ HTTP/1.1" 200 3084
+INFO 2021-01-11 22:48:11,500 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-11 22:48:17,737 basehttp 157 "GET /login/ HTTP/1.1" 200 3561
+INFO 2021-01-11 22:48:18,922 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-11 22:48:19,005 basehttp 157 "GET /imagecode/?uuid=f44d55ec-3437-4a4f-a636-6d70d0f9d52c HTTP/1.1" 200 3628
+INFO 2021-01-11 22:48:21,228 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-11 22:48:21,272 basehttp 157 "GET /imagecode/?uuid=fa2d8fda-2231-498f-a9a8-9546457ce5ff HTTP/1.1" 200 3061
+WARNING 2021-01-11 22:48:34,016 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-01-11 22:48:34,016 basehttp 157 "POST /login/ HTTP/1.1" 403 2513
