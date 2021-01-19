@@ -911,3 +911,4 @@ INFO 2021-01-11 22:48:21,228 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
 INFO 2021-01-11 22:48:21,272 basehttp 157 "GET /imagecode/?uuid=fa2d8fda-2231-498f-a9a8-9546457ce5ff HTTP/1.1" 200 3061
 WARNING 2021-01-11 22:48:34,016 log 224 Forbidden (CSRF token missing or incorrect.): /login/
 WARNING 2021-01-11 22:48:34,016 basehttp 157 "POST /login/ HTTP/1.1" 403 2513
+INFO 2021-01-13 22:53:27,247 autoreload 617 Watching for file changes with StatReloader
