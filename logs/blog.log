@@ -912,3 +912,258 @@ INFO 2021-01-11 22:48:21,272 basehttp 157 "GET /imagecode/?uuid=fa2d8fda-2231-49
 WARNING 2021-01-11 22:48:34,016 log 224 Forbidden (CSRF token missing or incorrect.): /login/
 WARNING 2021-01-11 22:48:34,016 basehttp 157 "POST /login/ HTTP/1.1" 403 2513
 INFO 2021-01-13 22:53:27,247 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 21:48:04,310 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 21:48:04,698 basehttp 157 "GET / HTTP/1.1" 200 11928
+INFO 2021-01-19 21:48:05,300 basehttp 157 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-01-19 21:48:05,302 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-01-19 21:48:05,305 basehttp 157 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 549
+INFO 2021-01-19 21:48:05,305 basehttp 157 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-01-19 21:48:05,311 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2021-01-19 21:48:05,313 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2021-01-19 21:48:05,317 basehttp 157 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2021-01-19 21:48:05,326 basehttp 157 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-01-19 21:48:05,329 basehttp 157 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2021-01-19 21:48:05,335 basehttp 157 "GET /static/js/index.js HTTP/1.1" 200 559
+INFO 2021-01-19 21:48:05,339 basehttp 157 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-01-19 21:48:05,344 basehttp 157 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2021-01-19 21:48:35,152 log 224 Not Found: /favicon.ico
+WARNING 2021-01-19 21:48:35,153 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2824
+INFO 2021-01-19 21:56:51,959 basehttp 157 "GET / HTTP/1.1" 200 11928
+INFO 2021-01-19 21:56:52,049 basehttp 157 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-01-19 22:07:23,456 basehttp 157 "GET /login HTTP/1.1" 301 0
+INFO 2021-01-19 22:07:23,467 basehttp 157 "GET /login/ HTTP/1.1" 200 3561
+INFO 2021-01-19 22:07:23,487 basehttp 157 "GET /static/js/login.js HTTP/1.1" 200 710
+WARNING 2021-01-19 22:07:32,243 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-01-19 22:07:32,245 basehttp 157 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-01-19 22:14:10,902 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-01-19 22:14:10,902 basehttp 157 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-01-19 22:14:20,982 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-01-19 22:14:20,982 basehttp 157 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-01-19 22:14:32,735 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-01-19 22:14:32,735 basehttp 157 "POST /login/ HTTP/1.1" 403 2513
+INFO 2021-01-19 22:14:48,777 basehttp 157 "GET /register HTTP/1.1" 301 0
+INFO 2021-01-19 22:14:48,783 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:14:48,829 basehttp 157 "GET /static/js/register.js HTTP/1.1" 200 6597
+ERROR 2021-01-19 22:14:50,965 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\python3\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\python3\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\users\views.py", line 73, in get
+    redis_conn.setex('img:%s' % uuid, 300, text)
+  File "D:\python3\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\python3\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\python3\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\python3\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-01-19 22:14:50,969 basehttp 157 "GET /imagecode/?uuid=140c29da-e85a-4e62-bdcd-f00d82ff9b91 HTTP/1.1" 500 110939
+ERROR 2021-01-19 22:15:03,597 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\python3\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\python3\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\users\views.py", line 73, in get
+    redis_conn.setex('img:%s' % uuid, 300, text)
+  File "D:\python3\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\python3\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\python3\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\python3\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-01-19 22:15:03,598 basehttp 157 "GET /imagecode/?uuid=8d490063-96fd-4b4b-81df-a25dc0889fda HTTP/1.1" 500 110936
+ERROR 2021-01-19 22:15:04,200 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\python3\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\python3\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\python3\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python3\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\py_workspace\my_blog_app\users\views.py", line 73, in get
+    redis_conn.setex('img:%s' % uuid, 300, text)
+  File "D:\python3\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\python3\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\python3\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\python3\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-01-19 22:15:04,201 basehttp 157 "GET /imagecode/?uuid=a39d915d-e990-4c62-adf6-c4538d1515a6 HTTP/1.1" 500 111006
+INFO 2021-01-19 22:15:19,248 basehttp 157 "GET /imagecode/?uuid=7cda9eff-15cb-4403-8beb-e6b1463b2fc5 HTTP/1.1" 200 3193
+INFO 2021-01-19 22:15:20,768 basehttp 157 "GET /imagecode/?uuid=f0ec6bc8-7c8c-406b-a487-59eb80608430 HTTP/1.1" 200 3465
+INFO 2021-01-19 22:15:27,935 views 96 783461
+INFO 2021-01-19 22:15:28,484 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=SGAB&uuid=f0ec6bc8-7c8c-406b-a487-59eb80608430 HTTP/1.1" 200 63
+WARNING 2021-01-19 22:16:15,775 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-19 22:16:15,808 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-19 22:16:56,739 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 22:17:08,328 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:17:08,406 basehttp 157 "GET /imagecode/?uuid=fcef93dd-31e1-4c64-899b-29192863b512 HTTP/1.1" 200 3283
+INFO 2021-01-19 22:17:15,823 basehttp 157 "GET /imagecode/?uuid=b48944a0-170f-46fb-ab7f-9fa25873c490 HTTP/1.1" 200 3189
+INFO 2021-01-19 22:17:20,904 views 96 745502
+INFO 2021-01-19 22:17:21,515 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=BSSZ&uuid=b48944a0-170f-46fb-ab7f-9fa25873c490 HTTP/1.1" 200 63
+WARNING 2021-01-19 22:17:43,649 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-19 22:17:44,039 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-19 22:18:27,430 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 22:18:36,465 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:18:36,539 basehttp 157 "GET /imagecode/?uuid=f4dd17f9-294f-41c1-b921-d224491b1182 HTTP/1.1" 200 3284
+INFO 2021-01-19 22:18:41,374 basehttp 157 "GET /imagecode/?uuid=d8af1014-e4a7-401a-b239-b480a9d695c3 HTTP/1.1" 200 3036
+INFO 2021-01-19 22:18:42,430 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:18:42,484 basehttp 157 "GET /imagecode/?uuid=4752d00e-f9a4-47dc-a2cf-faa1d62e6f25 HTTP/1.1" 200 2748
+INFO 2021-01-19 22:18:42,604 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:18:42,659 basehttp 157 "GET /imagecode/?uuid=be3d8752-2c37-4e30-8609-df3f33c4a3b8 HTTP/1.1" 200 3403
+INFO 2021-01-19 22:18:42,757 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:18:42,809 basehttp 157 "GET /imagecode/?uuid=e059f3d6-cf4b-486e-8d62-4cebfcdc9e1d HTTP/1.1" 200 2982
+INFO 2021-01-19 22:18:55,366 views 96 470105
+INFO 2021-01-19 22:18:55,901 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=SRRH&uuid=e059f3d6-cf4b-486e-8d62-4cebfcdc9e1d HTTP/1.1" 200 63
+WARNING 2021-01-19 22:19:19,313 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-19 22:19:19,705 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-19 22:19:59,306 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 22:20:00,699 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:20:02,343 basehttp 157 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-01-19 22:20:02,343 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12949
+INFO 2021-01-19 22:20:02,352 basehttp 157 "GET /static/js/common.js HTTP/1.1" 200 919
+INFO 2021-01-19 22:20:02,358 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-01-19 22:20:02,361 basehttp 157 "GET /static/js/register.js HTTP/1.1" 200 6575
+INFO 2021-01-19 22:20:02,366 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 300254
+INFO 2021-01-19 22:20:02,513 basehttp 157 "GET /imagecode/?uuid=7879a0bc-c114-47b3-ac7e-1650a54b12ad HTTP/1.1" 200 3125
+INFO 2021-01-19 22:20:10,318 basehttp 157 "GET /imagecode/?uuid=75d42ca2-b3db-4000-9744-2d9fc870caa6 HTTP/1.1" 200 3217
+INFO 2021-01-19 22:20:11,512 basehttp 157 "GET /imagecode/?uuid=99505d89-5cd5-4b91-833c-bbb2ab535320 HTTP/1.1" 200 3332
+INFO 2021-01-19 22:20:12,712 basehttp 157 "GET /imagecode/?uuid=f7c04d36-bb99-4aee-b221-64b453e05c08 HTTP/1.1" 200 2601
+INFO 2021-01-19 22:20:13,617 basehttp 157 "GET /imagecode/?uuid=1de1bb38-afd9-45c4-8dc5-f992f2396a98 HTTP/1.1" 200 3561
+INFO 2021-01-19 22:20:21,417 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=LOY5&uuid=1de1bb38-afd9-45c4-8dc5-f992f2396a98 HTTP/1.1" 200 72
+INFO 2021-01-19 22:20:21,441 basehttp 157 "GET /imagecode/?uuid=e2efbfd5-63af-4827-bccc-0317723f37e3 HTTP/1.1" 200 3066
+INFO 2021-01-19 22:20:28,540 views 96 820615
+INFO 2021-01-19 22:20:28,986 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=XAYD&uuid=e2efbfd5-63af-4827-bccc-0317723f37e3 HTTP/1.1" 200 63
+WARNING 2021-01-19 22:20:53,462 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-19 22:20:53,485 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-19 22:21:20,828 basehttp 157 "GET /imagecode/?uuid=1ad190d7-45ed-405f-b384-245ac79a5605 HTTP/1.1" 200 3073
+INFO 2021-01-19 22:21:33,494 basehttp 157 "GET /register HTTP/1.1" 301 0
+INFO 2021-01-19 22:21:33,499 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:21:33,516 basehttp 157 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-01-19 22:21:33,579 basehttp 157 "GET /imagecode/?uuid=5ee74994-c110-45f7-8ff6-1e31e1c9f36b HTTP/1.1" 200 3276
+INFO 2021-01-19 22:21:42,396 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:21:42,566 basehttp 157 "GET /imagecode/?uuid=e53571e7-544d-4340-b138-12d13d6c7048 HTTP/1.1" 200 3280
+INFO 2021-01-19 22:21:55,123 views 96 959202
+INFO 2021-01-19 22:21:55,424 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=SSWL&uuid=e53571e7-544d-4340-b138-12d13d6c7048 HTTP/1.1" 200 63
+INFO 2021-01-19 22:22:37,000 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 22:23:15,531 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:23:15,549 basehttp 157 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-01-19 22:23:15,633 basehttp 157 "GET /imagecode/?uuid=da3f97e9-e2ae-4420-ba56-77771f3310bb HTTP/1.1" 200 3408
+INFO 2021-01-19 22:23:28,404 views 96 088339
+INFO 2021-01-19 22:23:28,865 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=CCKH&uuid=da3f97e9-e2ae-4420-ba56-77771f3310bb HTTP/1.1" 200 63
+WARNING 2021-01-19 22:24:06,427 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-19 22:24:06,847 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-01-19 22:25:50,174 log 224 Bad Request: /register/
+WARNING 2021-01-19 22:25:50,175 basehttp 157 "POST /register/ HTTP/1.1" 400 24
+WARNING 2021-01-19 22:25:55,560 log 224 Bad Request: /register/
+WARNING 2021-01-19 22:25:55,561 basehttp 157 "POST /register/ HTTP/1.1" 400 24
+INFO 2021-01-19 22:25:57,894 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:25:57,980 basehttp 157 "GET /imagecode/?uuid=24c9a58f-93ba-419f-88d6-8665dc26fb1d HTTP/1.1" 200 2993
+INFO 2021-01-19 22:26:14,851 views 96 598383
+INFO 2021-01-19 22:26:15,366 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=UHKI&uuid=24c9a58f-93ba-419f-88d6-8665dc26fb1d HTTP/1.1" 200 63
+INFO 2021-01-19 22:26:30,128 basehttp 157 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-01-19 22:26:30,138 basehttp 157 "GET / HTTP/1.1" 200 11928
+INFO 2021-01-19 22:26:30,164 basehttp 157 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-01-19 22:34:17,289 basehttp 157 "GET /login/ HTTP/1.1" 200 3561
+INFO 2021-01-19 22:34:17,340 basehttp 157 "GET /static/js/login.js HTTP/1.1" 200 710
+WARNING 2021-01-19 22:34:17,397 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-19 22:34:17,424 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2021-01-19 22:34:23,040 log 224 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-01-19 22:34:23,041 basehttp 157 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-01-19 22:34:26,539 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-19 22:34:26,574 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-19 22:35:00,808 basehttp 157 "GET /register/ HTTP/1.1" 200 5998
+INFO 2021-01-19 22:35:00,842 basehttp 157 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-01-19 22:35:00,910 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1674
+INFO 2021-01-19 22:35:00,918 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-19 22:35:00,976 basehttp 157 "GET /imagecode/?uuid=93cd330e-4658-48f9-9776-c01855b25043 HTTP/1.1" 200 3022
+INFO 2021-01-19 22:35:15,126 views 96 072311
+INFO 2021-01-19 22:35:15,659 basehttp 157 "GET /smscode/?mobile=18895675881&image_code=ck4t&uuid=93cd330e-4658-48f9-9776-c01855b25043 HTTP/1.1" 200 63
+INFO 2021-01-19 22:35:26,112 basehttp 157 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-01-19 22:35:26,128 basehttp 157 "GET / HTTP/1.1" 200 11928
+INFO 2021-01-19 22:35:26,167 basehttp 157 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-01-19 22:35:26,168 basehttp 157 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-01-19 22:35:26,170 basehttp 157 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 549
+INFO 2021-01-19 22:35:26,183 basehttp 157 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97168
+INFO 2021-01-19 22:35:26,188 basehttp 157 "GET /static/js/index.js HTTP/1.1" 200 559
+INFO 2021-01-19 22:35:26,193 basehttp 157 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-01-19 22:35:26,204 basehttp 157 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-01-19 22:35:32,672 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-01-19 22:49:07,638 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 22:49:47,980 basehttp 157 "GET / HTTP/1.1" 200 11928
+INFO 2021-01-19 22:49:48,004 basehttp 157 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-01-19 22:50:43,940 basehttp 157 "GET / HTTP/1.1" 200 11928
+INFO 2021-01-19 22:51:32,233 basehttp 157 "GET / HTTP/1.1" 200 11928
+INFO 2021-01-19 22:52:24,786 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 22:53:09,840 basehttp 157 "GET / HTTP/1.1" 200 11928
+INFO 2021-01-19 22:54:03,508 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 22:57:21,230 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 22:57:46,625 basehttp 157 "GET / HTTP/1.1" 200 11935
+INFO 2021-01-19 22:57:46,648 basehttp 157 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-01-19 22:58:29,535 basehttp 157 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-01-19 22:58:29,549 basehttp 157 "GET / HTTP/1.1" 200 11935
+INFO 2021-01-19 23:01:44,329 autoreload 240 D:\py_workspace\my_blog_app\users\urls.py changed, reloading.
+INFO 2021-01-19 23:01:45,597 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 23:01:51,396 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 23:02:08,362 basehttp 157 "GET /login/ HTTP/1.1" 200 3551
+WARNING 2021-01-19 23:02:10,324 log 224 Not Found: /login/forget_password.html
+WARNING 2021-01-19 23:02:10,325 basehttp 157 "GET /login/forget_password.html HTTP/1.1" 404 3225
+INFO 2021-01-19 23:03:44,346 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-01-19 23:03:48,757 basehttp 157 "GET /login/ HTTP/1.1" 200 3548
+INFO 2021-01-19 23:04:46,562 basehttp 157 "GET /forget_password/ HTTP/1.1" 200 5214
+INFO 2021-01-19 23:04:47,397 basehttp 157 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+INFO 2021-01-19 23:04:47,398 basehttp 157 "GET /static/js/forget_password.js HTTP/1.1" 200 6567

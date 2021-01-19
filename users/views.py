@@ -1,4 +1,4 @@
-from django.contrib.auth import login
+from django.contrib.auth import login, logout
 from django.http import HttpResponseBadRequest, JsonResponse
 from django.shortcuts import render, redirect
 from django.urls import reverse
@@ -102,3 +102,18 @@ class SmsCodeView(View):
 class LoginView(View):
     def get(self, request):
         return render(request, 'login.html')
+
+
+class LogoutView(View):
+
+    def get(self, request):
+        logout(request)
+        response = redirect(reverse('home:index'))
+        response.delete_cookie('is_login')
+        return response
+
+
+class ForgetPasswordView(View):
+
+    def get(self, request):
+        return render(request, 'forget_password.html')

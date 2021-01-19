@@ -153,7 +153,6 @@ var vm = new Vue({
         },
         //提交
         on_submit:function () {
-            debugger
             this.check_mobile();
             this.check_password();
             this.check_password2();
